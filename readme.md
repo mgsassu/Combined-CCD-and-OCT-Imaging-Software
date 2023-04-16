@@ -11,7 +11,7 @@ Computer and Repository Setup Instructions:
 This is a complete walkthrough of the computer setup and software installation process performed on October 12, 2018 on the dedicated Falloposcope computer. For completion, this description assumes that you are setting up a completely new system and walks through all steps required. Please follow these instructions exactly. NOTE: It is possible, with ongoing updates to drivers and Windows 10 itself that things will not work in the future exactly as they did before. This walkthrough includes as much information as possible to explain not only what was done, but why. Hopefully this will help with your troubleshooting!
 1.	Computer Specifications: If you’re starting from scratch, these are the settings of the computer the laboratory ordered from NorTech:
 
-![image](images/CompSpecs.png)
+![image1](images/CompSpecs.png)
  
 The critical components are the X299 chipset, as well as the AMD Pro WX7100 GPU. The high-end chipset provides enough lanes for data transfer between the AlazarTech board and the GPU. Without them data processing cannot happen as quickly. If you are considering a different configuration, this functionality is what’s required. 
 
@@ -19,11 +19,11 @@ The critical components are the X299 chipset, as well as the AMD Pro WX7100 GPU.
 
 Install all possible packages and restart the computer. When this is complete, you should be able to right-click to access the FirePro settings.
 
-![image](images/AMDFireproSettings.PNG)
+![image2](images/AMDFireproSettings.PNG)
  
 Select “Advanced”, then “SDI/DirectGMA”. Check the box and move the slider as high as it will go. 
 
-![image](images/AMDDirectGMASettings.PNG)
+![image3](images/AMDDirectGMASettings.PNG)
  
 Restart the computer for this change to take effect. 
 
@@ -34,7 +34,7 @@ c.	Along the right hand side, there is a section titled “Installation Details�
 d.	With these three options selected, click “Install While Downloading” in the lower right-hand corner.
 e.	Restart the computer when prompted. 
 
-![image](images/VS2017InstallerPackageSelections.PNG)
+![image4](images/VS2017InstallerPackageSelections.PNG)
  
 4.	Install AlazarTech Packages: There are 3 sets of material to install. As stated above, these are not included in the Repository and must be purchased from AlazarTech. Once acquired, all 3 libraries should install to the main folder “C:\AlazarTech”. Do NOT modify this unless you know what you’re doing, and know that you will need to point the project in this repository to the new location.
 a.	ATS-SDK
