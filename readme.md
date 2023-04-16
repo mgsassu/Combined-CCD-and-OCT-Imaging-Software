@@ -19,11 +19,11 @@ The critical components are the X299 chipset, as well as the AMD Pro WX7100 GPU.
 
 Install all possible packages and restart the computer. When this is complete, you should be able to right-click to access the FirePro settings.
 
-![image2](images/AMDFireproSettings.PNG)
+![image2](images/AMDFireproSettings.png)
  
 Select “Advanced”, then “SDI/DirectGMA”. Check the box and move the slider as high as it will go. 
 
-![image3](images/AMDDirectGMASettings.PNG)
+![image3](images/AMDDirectGMASettings.png)
  
 Restart the computer for this change to take effect. 
 
@@ -34,7 +34,7 @@ c.	Along the right hand side, there is a section titled “Installation Details�
 d.	With these three options selected, click “Install While Downloading” in the lower right-hand corner.
 e.	Restart the computer when prompted. 
 
-![image4](images/VS2017InstallerPackageSelections.PNG)
+![image4](images/VS2017InstallerPackageSelections.png)
  
 4.	Install AlazarTech Packages: There are 3 sets of material to install. As stated above, these are not included in the Repository and must be purchased from AlazarTech. Once acquired, all 3 libraries should install to the main folder “C:\AlazarTech”. Do NOT modify this unless you know what you’re doing, and know that you will need to point the project in this repository to the new location.
 a.	ATS-SDK
